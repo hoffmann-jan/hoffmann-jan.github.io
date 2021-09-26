@@ -1,4 +1,10 @@
-/dist
-/.vs
-/Code/.vs/
-/Code/obj
+# Single Files
+/Code/Homepage.csproj.user
+/Code/Properties/PublishProfiles/FolderProfile.user
+
+# Whole Folders
+dist
+.vs
+obj
+bin
+publish
