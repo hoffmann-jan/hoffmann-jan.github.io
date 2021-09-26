@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="C:\Users\Tuxel\Documents\GitHub\hoffmann-jan.github.io\Code\bin\Release\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\Tuxel\Documents\GitHub\hoffmann-jan.github.io\Code\obj\Release\net5.0\scopedcss\bundle\" />
+</StaticWebAssets>
