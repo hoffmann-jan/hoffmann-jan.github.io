@@ -1,10 +1,5 @@
-# Single Files
-/Code/Homepage.csproj.user
-/Code/Properties/PublishProfiles/FolderProfile.user
+﻿################################################################################
+# Diese .gitignore-Datei wurde von Microsoft(R) Visual Studio automatisch erstellt.
+################################################################################
 
-# Whole Folders
-dist
-.vs
-obj
-bin
-publish
+/.vs/Homepage/v16
