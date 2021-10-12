@@ -19,11 +19,11 @@ jobs:
         dotnet-version: 5.0.401
 
     - name: publish project
-      run: dotnet publish Code/Homepage.csproj -c Release -o release --nologo
+      run: dotnet publish Homepage.csproj -c Release -o release --nologo
       
     - name: commit wwwroot to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
-        FOLDER: Code/release/wwwroot
+        FOLDER: release/wwwroot
